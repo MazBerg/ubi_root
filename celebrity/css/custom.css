@@ -1,1 +1,14 @@
 /*-- Use For Custom Styling --*/
+.about-section a.maz-long-link{
+    width: 300px;
+}
+
+
+.project-section .rectangle .project-text{
+    top: 65px;
+}
+.project-text h2.large-header,
+.header h2.large-header {
+    font-size: 4em;
+    width: 500px;
+}
