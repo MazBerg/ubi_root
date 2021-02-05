@@ -1,8 +1,10 @@
 /*-- Use For Custom Styling --*/
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
 .about-section a.maz-long-link{
     width: 300px;
 }
-
 
 .project-section .rectangle .project-text{
     top: 65px;
@@ -11,4 +13,171 @@
 .header h2.large-header {
     font-size: 4em;
     width: 500px;
+}
+
+.subheading {
+    color: #3f00ff;
+}
+
+.btn.btn-hvr-red:hover {
+    background-color: #3f00ff;
+    border-color: #3f00ff;
+    color: #fff;
+}
+
+.btn.red-btn {
+    background: #fff;
+    border-color: #3f00ff;
+    color: #3f00ff;
+}
+
+.about-section .media .media-body {
+    margin-left: 10px;
+    color: #3f00ff;
+}
+
+.about-section .media i {
+    color: #3f00ff;
+    border: 1px solid #3f00ff;
+}
+
+.about-section .media:hover i {
+    border: 1px solid #3f00ff;
+    background-color: #3f00ff;
+}
+
+.navbar-fixed-top.scrolled .sidemenu_btn:hover {
+    background-color: #3f00ff;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #3f00ff;
+}
+
+.container1>div, .container2>div, .container3>div {
+    border: 6px solid #3f00ff;
+    background-color: #fff;
+}
+
+.loader {
+    background: #fff;
+}
+
+.heading {
+    font-family: 'Pacifico', sans-serif;
+    font-weight: unset;
+}
+
+/* Header Pebble */
+
+.banner-section .rectangle .text h2 {
+    font-family: 'Pacifico', sans-serif;
+    font-weight: unset;
+}
+
+.banner-section .rectangle {
+    position: absolute;
+    top: 0;
+    width: 600px;
+    height: 610px;
+    background-color: rgba(0,0,0,0);
+}
+
+.banner-section .rectangle .text {
+    position: absolute;
+    bottom: 20px;
+    left: 28px;
+}
+
+.maz-pebble {
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 100px;
+    left: -50px;
+}
+
+/* About Section */
+.maz-custom-ripple {
+    transform: rotate(45deg);
+    position: absolute;
+    top: 65px;
+    right: -25px;
+    z-index: 10;
+}
+
+.about-section .rectangle {
+    top: 120px;
+    right: 0;
+    width: 550px;
+    height: 400px;
+    position: absolute;
+    background-color: rgba(0,0,0,0);
+}
+
+/* Carousel Section */
+
+.project-section .project-text h2 {
+    font-family: 'Pacifico', sans-serif;
+    font-weight: unset;
+    margin-bottom: 1rem;
+}
+
+.project-section .rectangle {
+    bottom: 0;
+    width: 375px;
+    height: 600px;
+    position: absolute;
+    background-color: rgba(0,0,0,0);
+}
+
+.project-section .rectangle .project-text-carousel {
+    position: absolute;
+    top: unset;
+    left: 80px;
+    bottom: 55px;
+}
+
+.maz-drop {
+    position: absolute;
+    bottom: 0;
+    left: -25px;
+}
+
+/* Chakrties */
+.rectangle .maz-rain{
+	z-index: 10;
+}
+
+.about-section .rectangle-chakraties {
+    top: 120px;
+    right: 0;
+    width: 450px;
+    height: 400px;
+    position: absolute;
+    background-color: rgba(0,0,0,0);
+    z-index: 10;
+}
+
+/* Products Section */
+.media-section .cards-section .active{
+    background-color: #3f00ff;
+}
+
+.media-section .cards-section .card-body .card-title{
+    color: #3f00ff;
+}
+
+.media-section .cards-section .active .card-title {
+    color: #fff;
+}
+
+/* Contact */
+.contact-section .rectangle-contact {
+    position: absolute;
+    top: 120px;
+    right: 0;
+    width: 450px;
+    height: 500px;
+    background-color: rgba(0,0,0,0);
+    z-index: 10;
 }
